@@ -1,0 +1,62 @@
+#header {
+    background-color:black;
+    color:white;
+    height:100px;
+    width:300px;
+    text-align:left;
+    padding: 10px;
+}
+#nav {
+    line-height:30px;
+    background-color: black;
+    height:800px;
+    width:200px;
+    float:left;
+    padding: 10px;
+}
+#photo {
+    line-height:20px;
+    background-color: black;
+    color: white;
+    height:200px;
+    width:500px;
+    padding:10px;
+    float: right;
+}
+#text{
+    line-height:20px;
+    background-color: black;
+    color: white;
+    height:200px;
+    width:500px;
+    float:left;
+    padding:10px;
+}
+
+/* unvisited link */
+a:link {
+    color: #fbf309;
+}
+
+/* visited link */
+a:visited {
+    color: #fbf309;
+}
+
+/* mouse over link */
+a:hover {
+    color: green;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body {background-color: black;
+}
