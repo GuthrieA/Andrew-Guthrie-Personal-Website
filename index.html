@@ -3,32 +3,53 @@
 <head>
   <meta charset=“UTF-8”>
   <link rel="shortcut icon" type="image/x-icon" href="icons/favicon.ico">
+  <!--the next line should make the site change size and try move elements around depending on the size of the device-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/base.css">
+  <!--insert Bootstrap CDN and JavaScript-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
   <title>Andrew Guthrie</title>
 </head>
 
 <body>
-<div id= "header">
-Andrew Guthrie Resume
-<a href="index.html"><img src="icons/favicon.png" alt="Favicon" title="Wrench Leaf" width="100" height="100" style="opacity: 1;"></a>
-</div>
-<div id ="nav">
-  <ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="experience.html">Experience</a></li>
-  <li><a href="education.html">Education</a></li>
-  <li><a href="projects.html">Projects</a></li>
-  <li><a href="skills.html">Skills</a></li>
-  <li><a href="activities.html">Activities</a></li>
-  <li><a href="documents/AndrewGuthrieConciseResume.pdf">Printable Resume PDF</a></li>
-</ul>
-</div>
-<div id ="photo">
-    <img src="photos/selfProfile.jpg" alt="Profile" title="me" width = "200">
 
-</div>
-<div id ="text">
-I am a mechanical engineer, developer, designer, and poet.
+  <div class="container">
+    <div class="row">
+      <div class=col-xs-4>
+        <a href="index.html"><img src="icons/favicon.png" alt="Favicon" title="Wrench Leaf" width="100" height="100" style="opacity: 1;"></a>
+      </div>
+      <div class=col-xs-4 id="title">
+        <h4> Andrew Guthrie Resume </h4>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div id="nav" class="col-xs-4">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="activities.html">Activities</a></li>
+          <li><a href="documents/AndrewGuthrieConciseResume.pdf">Printable Resume PDF</a></li>
+        </ul>
+      </div>
+
+      <div id="text" class="col-xs-4">
+        <p> 
+          I am a mechanical engineer, developer, designer, and poet.
+        </p>
+      </div>
+
+
+        <img class="col-xs-4" id="photo" src="photos/selfProfile.jpg">
+      
+  </div>
+
+  </div>
 </div>
 </body>
 </html>
