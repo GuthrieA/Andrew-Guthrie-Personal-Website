@@ -1,25 +1,23 @@
+#container {
+    background-color: black;
+    margin: 0px;
+}
+
 #header {
-    background-color:black;
-    color:white;
     height:100px;
     width:300px;
     text-align:left;
     padding: 10px;
 }
 #nav {
-    line-height:30px;
-    background-color: black;
-    height:800px;
+
     width:200px;
-    float:left;
-    padding: 10px;
 }
 #photo {
     width: 300px;
 }
 #text{
     line-height:20px;
-    background-color: black;
     color: white;
     height:200px;
     width:500px;
@@ -33,38 +31,38 @@
     margin: 10px;
 }
 
-/* unvisited link */
-a:link {
-    color: #fbf309;
+.row {
+  background-color: black;
 }
 
-/* visited link */
-a:visited {
+/* unvisited and visited link */
+a:link, a:visited {
     color: #fbf309;
 }
-
 /* mouse over link */
 a:hover {
-    color: green;
+    color: orange !important;
+}
+body
+{
+  background: black !important;
+   min-width:1000px; /* suppose you want minimun width of 1000px */
+   width: auto !important;  /* Firefox will set width as auto */
+   width:1000px;             /* As IE ignores !important it will set width as 1000px; */
 }
 
-/* selected link */
-a:active {
-    color: blue;
+.container-fluid {
+  background-color: black;
 }
-  ul {
+
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     color: white;
 }
-body {
-    background-color: black;
-}
 
-.row {
-    background-color: black;
-}
+
 
 .icon {
     alt:"Favicon";
