@@ -3,15 +3,14 @@
     margin: 0px;
 }
 
-#header {
+/*#header {
     height:100px;
     width:300px;
     text-align:left;
     padding: 10px;
-}
+}*/
 #nav {
-
-    width:200px;
+    min-width:100px;
 }
 #photo {
     width: 300px;
@@ -19,7 +18,6 @@
 #text{
     line-height:20px;
     color: white;
-    height:200px;
     float:left;
     padding:10px;
 }
@@ -33,7 +31,6 @@
 
 .row {
   background-color: black;
-  min-width: 400px;
 }
 
 /* unvisited and visited link */
@@ -42,7 +39,7 @@ a:link, a:visited {
 }
 /* mouse over link */
 a:hover {
-    color: orange !important;
+    color: orange;
 }
 body
 {
@@ -63,7 +60,7 @@ ul {
 
 
 
-.icon {
+/*.icon {
     alt:"Favicon";
      title="Wrench Leaf" width="100" height="100" style="opacity: 1;"
-}
+}*/
