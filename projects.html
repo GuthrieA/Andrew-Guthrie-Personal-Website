@@ -1,81 +1,103 @@
 <!DOCTYPE html>
 <html lang="eng-us">
-<head>
-  <meta charset=“UTF-8”>
-  <!-- favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="icons/favicon.ico">
-  <!--the next line should make the site change size and try move elements around depending on the size of the device-->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--insert Bootstrap CDN and JavaScript-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <!-- personal css -->
-  <link rel="stylesheet" href="css/base.css">
+  <head>
+    <meta charset=“UTF-8”>
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="icons/favicon.ico">
+    <!--the next line should make the site change size and try move elements around depending on the size of the device-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--insert Bootstrap CDN and JavaScript-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- personal css -->
+    <link rel="stylesheet" href="css/base.css">
 
-  <title>Andrew Guthrie</title>
-</head>
+    <title>Andrew Guthrie</title>
+  </head>
 
-<body>
-<div id= "header">
-Andrew Guthrie Resume
-<a href="index.html"><img src="icons/favicon.png" alt="Favicon" title="Wrench Leaf" width="100" height="100" style="opacity: 1;"></a>
-</div>
-<div id ="nav">
-  <ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="experience.html">Experience</a></li>
-  <li><a href="education.html">Education</a></li>
-  <li><a href="projects.html">Projects</a></li>
-  <li><a href="skills.html">Skills</a></li>
-  <li><a href="activities.html">Activities</a></li>
-  <li><a href="documents/AndrewGuthrieConciseResume.pdf">Printable Resume PDF</a></li>
-</ul>
-</div>
-<div id ="photo">
-    <img src="photos/playerHarp.jpg" alt="Profile" title="The Player Harp" width = "200">
+  <body>
 
-</div>
+    <div class="container-fluid">
+      <!-- header row -->
+      <div class="row">
+        <a href="index.html"><img id="icon" src="icons/favicon.png" class="col-xs-4"></a>
 
-<div id ="text">
-<h3>The Player Harp</h3>
-<ul>
-<li>Built 28 string harp</li>
-<li>Built harp playing device</li>
-<li>Played a lullaby, All Through the Night</li>
-</ul>
-</div>
+        <div id="title" class=col-xs-8>
+          <h4> Andrew Guthrie Resume </h4>
+        </div>
+      </div>
 
-<div id ="photo">
-    <img src="photos/coilCase.jpg" alt="Profile" title="The Coil Case" width = "200">
+      <!-- body row 1-->
+      <div class="row">
+        <!-- column 1 -->
+        <div id="nav" class="col-xs-2 col-md-2">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="documents/andrew-guthrie-resume.pdf" download>Resume PDF</a></li>
+          </ul>
+        </div>
 
-</div>
+        <!-- column 2 -->
 
+        <div id ="text" class= "col-xs-12 col-md-6">
+          <h3>The Player Harp</h3>
+          <ul>
+            <li>Built 28 string harp</li>
+            <li>Built harp playing device</li>
+            <li>Played a lullaby, All Through the Night</li>
+          </ul>
+        </div>
 
-<div id ="text">
-<h3>The Coil Case</h3>
-<ul>
-<li>Case for wrapping headphones around a smartphone</li>
-<li>Designed the device in SolidWorks</li>
-<li>3D printed the device with a MakerBot</li>
-</ul>
-</div>
+        <!-- column 3 -->
+            <img id ="photo" class = "img-responsive col-md-4 col-xs-12" src="photos/playerHarp.jpg">
+      </div>
+        <!-- body row 2 -->
+      <div class = "row">
 
-<div id ="photo">
-    <img src="photos/sunDial.png" alt="Profile" title="SunDial Window" width = "200">
+          <!-- column 1 (spacing) -->
+          <div class = "col-md-2 col-xs-2">
+          </div>
 
-</div>
+          <!-- column 2 -->
 
+          <div id ="text" class = "col-md-6 col-xs-12">
+          <h3>The Coil Case</h3>
+            <ul>
+              <li>Case for wrapping headphones around a smartphone</li>
+              <li>Designed the device in SolidWorks</li>
+              <li>3D printed the device with a MakerBot</li>
+            </ul>
+          </div>
 
-<div id ="text">
-<h3>SunDial Window</h3>
-<ul>
-<li>Idea comes from overlapping polarized windows</li>
-<li>With rotation, the view can be "dialed down"</li>
-<li>Created working prototype with team of 5</li>
-</ul>
-</div>
+          <!-- column 3 -->
+            <img id="photo" class = "img-responsive col-md-4 col-xs-12" src="photos/coilCase.jpg">
+      </div>
+        <!-- body row 3 -->
+      <div class = "row">
+          <!-- column 1 (spacing) -->
+          <div class = "col-md-2 col-xs-2">
+          </div>
 
+          <!-- column 2 -->
+          <div id ="text" class="col-md-6 col-xs-12">
+            <h3>SunDial Window</h3>
+            <ul>
+              <li>Idea comes from overlapping polarized windows</li>
+              <li>With rotation, the view can be "dialed down"</li>
+              <li>Created working prototype with team of 5</li>
+            </ul>
+          </div>
+          <!-- column 3 -->
 
-</body>
+            <img id = "photo" class = "img-responsive col-md-4 col-xs-12" src="photos/sunDial.png" alt="Profile" title="SunDial Window" width = "200">
+
+      </div>
+    </div>
+  </body>
 </html>

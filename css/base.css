@@ -12,8 +12,14 @@
 #nav {
     min-width:120px;
 }
+
+#icon {
+  max-width: 100px;
+  min-width: 100px;
+}
 #photo {
-    width: 350px;
+    width:300px;
+    clip: rect(0px,1000px,100px,100px);
 }
 #text{
     /*line-height:20px;*/
@@ -23,7 +29,7 @@
 }
 
 #title {
-    text-align: center;
+    text-align: left;
     color:yellow;
 }
 
