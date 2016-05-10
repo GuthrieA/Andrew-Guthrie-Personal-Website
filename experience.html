@@ -1,100 +1,98 @@
 <!DOCTYPE html>
 <html lang="eng-us">
-<head>
-  <meta charset=“UTF-8”>
-  <!-- favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="icons/favicon.ico">
-  <!--the next line should make the site change size and try move elements around depending on the size of the device-->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--insert Bootstrap CDN and JavaScript-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <!-- personal css -->
-  <link rel="stylesheet" href="css/base.css">
+  <head>
+    <meta charset=“UTF-8”>
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="icons/favicon.ico">
+    <!--the next line should make the site change size and try move elements around depending on the size of the device-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--insert Bootstrap CDN and JavaScript-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- personal css -->
+    <link rel="stylesheet" href="css/base.css">
 
-  <title>Andrew Guthrie</title>
-</head>
+    <title>Andrew Guthrie</title>
+  </head>
 
-<body>
   <body>
 
-    <div class="container-fluid">
-      <!-- header row -->
-      <div class="row">
-        <a href="index.html"><img id="icon" src="icons/favicon.png" class="col-xs-4"></a>
+      <div class="container-fluid">
+        <!-- header row -->
+        <div class="row">
+          <a href="index.html"><img id="icon" src="icons/favicon.png" class="col-xs-4"></a>
 
-        <div id="title" class=col-xs-8>
-          <h4> Andrew Guthrie Resume </h4>
+          <div id="title" class=col-xs-8>
+            <h4> Andrew Guthrie Resume </h4>
+          </div>
         </div>
-      </div>
 
-      <!-- body row -->
-      <div class="row">
-        <!-- column 1 -->
-        <div id="nav" class="col-xs-2">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="experience.html">Experience</a></li>
-            <li><a href="education.html">Education</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <li><a href="activities.html">Activities</a></li>
-            <li><a href="documents/andrew-guthrie-resume.pdf" download>Resume PDF</a></li>
-          </ul>
+        <!-- body row 1-->
+        <div class="row">
+          <!-- column 1 -->
+          <div id="nav" class="col-xs-2 col-md-2">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="experience.html">Experience</a></li>
+              <li><a href="education.html">Education</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="skills.html">Skills</a></li>
+              <li><a href="activities.html">Activities</a></li>
+              <li><a href="documents/andrew-guthrie-resume.pdf" download>Resume PDF</a></li>
+            </ul>
+          </div>
+
+          <!-- column 2 -->
+
+          <div id ="text" class= "col-xs-12 col-md-6">
+            <h3>Pratt and Whitney Process Engineer</h3>
+            <ul>
+              <li>Wrote assembly process sheets</li>
+              <li>Trained 10 new hires</li>
+              <li>Created source comment/page change documentation</li>
+            </ul>
+          </div>
+          <!-- column 3 -->
+            <img id ="photo" class="img-responsive col-xs-12 col-md-4" src="icons/prattLogo.jpg">
         </div>
-        <!-- columnt 2 -->
-          <div id ="text" class = "col-xs-4 ">
-          <h3>Pratt and Whitney Process Engineer</h3>
 
-          <li>Wrote assembly process sheets</li>
-          <li>Trained 10 new hires</li>
-          <li>Created source comment/page change documentation</li>
+         <!-- body row 2-->
+        <div class="row">
+          <!-- column 1 (for spacing)-->
+          <div class="col-md-2">
+          </div>
+          <!-- column 2 -->
+          <div id ="text" class="col-xs-12 col-md-6">
+            <ul>
+              <h3>Highschool Teacher</h3>
+              <li>Created electrincs curriculum</li>
+              <li>Made model cannon to showcase lathe and mill</li>
+              <li>Laser engraved gifts</li>
+            </ul>
           </div>
 
         <!-- column 3 -->
-          <div class="col-xs-4">
-            <div id ="photo">
-                <img src="icons/prattLogo.jpg" alt="Profile" title="Pratt and Whitney" width = "200">
+        <img id ="photo" class="img-responsive col-md-4 col-xs-12" src="icons/darienLogo.png">
+        </div>
 
-            </div>
+        <!-- body row 3 -->
+        <div class ="row">
+          <!-- column 1 (for spacing)-->
+          <div class="col-md-2">
           </div>
+          <!-- column 2 -->
+          <div id ="text" class ="col-md-6 col-xs-12">
+            <h3>Sailing Instructor</h3>
+            <ul>
+              <li>Landed and dispatched customers</li>
+              <li>Taught sailing theory to k-12</li>
+              <li>Sailed with groups on small boats</li>
+            </ul>
+          </div>
+          <!-- column 3 -->
+          <img id="photo" src="icons/longshoreLogo.png" class="col-md-4 col-xs-12" style="margin-top:50px">
         </div>
-        </div>
-
-
-
-
-
-<div id ="text">
-<h3>Highschool Teacher</h3>
-<li>Created electrincs curriculum</li>
-<li>Made model cannon to showcase lathe and mill</li>
-<li>Laser engraved gifts</li>
-</div>
-
-<div id ="photo">
-    <img src="icons/darienLogo.png" alt="Profile" title="Darien High School" width = "200">
-
-</div>
-
-<div id ="photo">
-    <img src="icons/longshoreLogo.png" alt="Profile" style="margin-top:50px"title="Longshore Sailing School" width = "200">
-
-</div>
-
-
-<div id ="text">
-<h3>Sailing Instructor</h3>
-<ul>
-<li>Landed and dispatched customers</li>
-<li>Taught sailing theory to k-12</li>
-<li>Sailed with groups on small boats</li>
-</ul>
-</div>
-
-</div>
-
-
-</body>
+      </div>
+    </body>
 </html>

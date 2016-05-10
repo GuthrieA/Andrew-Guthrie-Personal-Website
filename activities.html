@@ -1,86 +1,95 @@
 <!DOCTYPE html>
 <html lang="eng-us">
-<head>
-  <meta charset=“UTF-8”>
-  <!-- favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="icons/favicon.ico">
-  <!--the next line should make the site change size and try move elements around depending on the size of the device-->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--insert Bootstrap CDN and JavaScript-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <!-- personal css -->
-  <link rel="stylesheet" href="css/base.css">
+  <head>
+    <meta charset=“UTF-8”>
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="icons/favicon.ico">
+    <!--the next line should make the site change size and try move elements around depending on the size of the device-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--insert Bootstrap CDN and JavaScript-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- personal css -->
+    <link rel="stylesheet" href="css/base.css">
 
-  <title>Andrew Guthrie</title>
-</head>
+    <title>Andrew Guthrie</title>
+  </head>
 
-<body>
-  <div class="container-fluid">
-    <!-- header row -->
-    <div class="row">
-      <a href="index.html"><img id="icon" src="icons/favicon.png" class="col-xs-4"></a>
+  <body>
+        <div class="container-fluid">
+          <!-- header row -->
+          <div class="row">
+            <a href="index.html"><img id="icon" src="icons/favicon.png" class="col-xs-4"></a>
 
-      <div id="title" class=col-xs-8>
-        <h4> Andrew Guthrie Resume </h4>
+            <div id="title" class=col-xs-8>
+              <h4> Andrew Guthrie Resume </h4>
+            </div>
+          </div>
+
+          <!-- body row 1-->
+          <div class="row">
+            <!-- column 1 -->
+            <div id="nav" class="col-xs-2 col-md-2">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="documents/andrew-guthrie-resume.pdf" download>Resume PDF</a></li>
+              </ul>
+            </div>
+            <!-- column 2 -->
+
+          <div id ="text" class="col-xs-12 col-md-6">
+            <h3>Athletics</h3>
+            <ul>
+              <li>Underwater Hockey</li>
+              <li>Ultimate Frisbee</li>
+              <li>Disc Golf</li>
+            </ul>
+          </div>
+
+          <img id ="photo" class="img-responsive col-xs-12 col-md-4" src="photos/underWaterHockey.jpg">
+
+          </div>
+
+ <!-- body row 2-->
+        <div class="row">
+          <!-- column 1 (for spacing)-->
+          <div class="col-md-2">
+          </div>
+          <!-- column 2 -->
+          <div id ="text" class="col-xs-12 col-md-6">
+          <h3>Writing</h3>
+            <ul>
+              <li>Poetry</li>
+              <li>Short stories</li>
+            </ul>
+          </div>
+          <!-- column 3 -->
+          <img id ="photo" class="img-responsive col-xs-12 col-md-4" src="photos/compositionNotebook.jpg">
+        </div>
+
+ <!-- body row 3-->
+        <div class="row">
+          <!-- column 1 (for spacing)-->
+          <div class="col-md-2">
+          </div>
+          <!-- column 2 -->
+          <div id ="text" class="col-xs-12 col-md-6">
+            <h3>Other</h3>
+            <ul>
+              <li>Harp Performing</li>
+              <li>Poetry Reading</li>
+              <li>Strategy Boardgaming</li>
+            </ul>
+          </div>
+          <!-- column 3 -->
+          <img id ="photo" class="img-responsive col-xs-12 col-md-4" src="photos/harpPlaying.jpg">
+        </div>
       </div>
-    </div>
-
-    <div id ="nav">
-  <ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="experience.html">Experience</a></li>
-  <li><a href="education.html">Education</a></li>
-  <li><a href="projects.html">Projects</a></li>
-  <li><a href="skills.html">Skills</a></li>
-  <li><a href="activities.html">Activities</a></li>
-  <li><a href="documents/andrew-guthrie-resume.pdf" download>Resume PDF</a></li>
-</ul>
-</div>
-<div id ="photo">
-    <img src="photos/underWaterHockey.jpg" alt="Profile" title="Under Water Hockey" width = "200">
-
-</div>
-
-<div id ="text">
-<h3>Athletics</h3>
-<ul>
-<li>Underwater Hockey</li>
-<li>Ultimate Frisbee</li>
-<li>Disc Golf</li>
-</ul>
-</div>
-
-<div id ="photo">
-    <img src="photos/compositionNotebook.jpg" alt="Profile" title="Harp Playing" width = "200">
-
-</div>
-
-
-<div id ="text">
-<h3>Writing</h3>
-<ul>
-<li>Poetry</li>
-<li>Short stories</li>
-</ul>
-</div>
-
-<div id ="photo">
-    <img src="photos/harpPlaying.jpg" alt="Profile" title="Harp Playing" width = "200">
-
-</div>
-
-
-<div id ="text">
-<h3>Other</h3>
-<ul>
-<li>Harp Performing</li>
-<li>Poetry Reading</li>
-<li>Strategy Boardgaming</li>
-</ul>
-</div>
-</div>
-
-</body>
+  </body>
 </html>
