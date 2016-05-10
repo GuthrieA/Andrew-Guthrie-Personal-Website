@@ -1,5 +1,5 @@
 #container {
-    background-color: black;
+    background-color: gray;
     margin: 0px;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .row {
-  background-color: black;
+  background-color: gray;
 }
 /* unvisited and visited link */
 a:link, a:visited {
@@ -45,11 +45,11 @@ a:hover {
 }
 body
 {
-  background: black;
+  background: gray;
 }
 
 .container-fluid {
-  background-color: black;
+  background-color: gray;
 }
 
 ul {
