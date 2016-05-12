@@ -1,5 +1,6 @@
+
 #container {
-    background-color: gray;
+
     margin: 0px;
 }
 
@@ -33,7 +34,6 @@
 }
 
 .row {
-  background-color: gray;
 }
 /* unvisited and visited link */
 a:link, a:visited {
@@ -43,13 +43,10 @@ a:link, a:visited {
 a:hover {
     color: orange;
 }
-body
-{
-  background: gray;
-}
+img{
+padding-bottom:10px;}
 
 .container-fluid {
-  background-color: gray;
 }
 
 ul {
@@ -58,3 +55,4 @@ ul {
     padding: 0;
     color: white;
 }
+
